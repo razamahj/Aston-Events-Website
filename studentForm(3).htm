@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Task5: Input Form for Computing Student</title>
+</head>
+<body>
+
+<form method = "post" action="addStudent.php">
+	Firstname: <input type="text" name="firstname" /><br /><br />
+	Surname: <input type="text" name="surname" /><br /><br />
+	Enroll Year: <input type="text" name="year" ><br /><br />
+	<div>
+	Please Choose: <br>
+		<input type="radio" value="female" name="gender" checked />Female <br> 
+		<input type="radio" value="male" name="gender" />Male <br /><br />
+	</div>
+	Your Course: <br>
+	<select name="course">
+		<option value="1" selected="selected"> Computer Science </option>
+		<option value="2"> Computing for Business </option>
+		<option value="3"> Multimedia Computing </option>
+		<option value="4"> Combined Honours </option>
+	</select><br/> <br/>
+
+	<input type="submit" name="submit" value="Submit" />
+	<input type="reset" value="clear"/>
+</form>
+
+
+
+</body>
+</html>
